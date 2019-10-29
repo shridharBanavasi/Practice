@@ -1,0 +1,902 @@
+[
+  {
+    "_id": "5a59c3bcb66f8e29c0c859e9",
+    "rfId": "64022",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-2",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "item": {
+      "_id": "5a59c286b66f8e29c0c859e7",
+      "name": "Slotted Head Machine Screws - DIN 84A",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 3,
+        "length": 12,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "oldId": "33501",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "currDevice": {
+      "_id": "5a84324a82fb8d0520f4505a",
+      "slno": "SA20W0000002",
+      "name": "cBin-SA-2",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+      "category": "cBin"
+    },
+    "uom": "weight",
+    "capacity": 17,
+    "thresold": {
+      "max": 10,
+      "normal": 6,
+      "min": 1.6
+    },
+    "status": "CONFIGURED",
+    "lastReading": {
+      "_id": "5b222d3959d3224d55dd89b9",
+      "reading": {
+        "weight": 0,
+        "status": "EMPTY"
+      }
+    },
+    "updated": "2018-06-14T08:54:17.506Z",
+    "created": "2018-01-13T08:30:52.462Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": false
+  },
+  {
+    "_id": "5a9014dc2862a03740a3bfc7",
+    "rfId": "55394",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a9010ef2862a03740a3bfc5",
+      "name": "FPO-25",
+      "dimension": {
+        "length": 200,
+        "width": 140,
+        "height": 120
+      },
+      "capacity": 15,
+      "brand": "Aristo"
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9012522862a03740a3bfc6",
+      "name": "M4 x 16mm Allen Screw",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "length": 16,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 2,
+      "normal": 1,
+      "min": 0.5
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5c2b4498dc230d2e070aa9ce",
+      "reading": {
+        "weight": 1.5,
+        "status": "BORED"
+      }
+    },
+    "updated": "2019-01-01T10:44:40.490Z",
+    "created": "2018-02-23T13:19:24.525Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5ad66c2b05e4b73d8b3927f5",
+    "rfId": "64715",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a785225ac7fb251331f7916",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9bbf67282aee1c48a9dfa4",
+      "name": "M4 2mm washer",
+      "category": "5a759e2e7e2f0021085e1231",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "thickness": 2,
+        "uom": "mm"
+      },
+      "material": "ss"
+    },
+    "oldId": "64715",
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 1,
+      "normal": 0.5,
+      "min": 0.25
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5b34ecc543e0306c6fa0913d",
+      "reading": {
+        "weight": 0.44,
+        "status": "RESERVE"
+      }
+    },
+    "name": "cBin-SA-3",
+    "updated": "2018-06-28T14:12:21.539Z",
+    "created": "2018-04-17T21:50:35.265Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5a59c3bcb66f8e29c0c859e9",
+    "rfId": "64022",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-2",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "item": {
+      "_id": "5a59c286b66f8e29c0c859e7",
+      "name": "Slotted Head Machine Screws - DIN 84A",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 3,
+        "length": 12,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "oldId": "33501",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "currDevice": {
+      "_id": "5a84324a82fb8d0520f4505a",
+      "slno": "SA20W0000002",
+      "name": "cBin-SA-2",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+      "category": "cBin"
+    },
+    "uom": "weight",
+    "capacity": 17,
+    "thresold": {
+      "max": 10,
+      "normal": 6,
+      "min": 1.6
+    },
+    "status": "CONFIGURED",
+    "lastReading": {
+      "_id": "5b222d3959d3224d55dd89b9",
+      "reading": {
+        "weight": 0,
+        "status": "EMPTY"
+      }
+    },
+    "updated": "2018-06-14T08:54:17.506Z",
+    "created": "2018-01-13T08:30:52.462Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": false
+  },
+  {
+    "_id": "5a9014dc2862a03740a3bfc7",
+    "rfId": "55394",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a9010ef2862a03740a3bfc5",
+      "name": "FPO-25",
+      "dimension": {
+        "length": 200,
+        "width": 140,
+        "height": 120
+      },
+      "capacity": 15,
+      "brand": "Aristo"
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9012522862a03740a3bfc6",
+      "name": "M4 x 16mm Allen Screw",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "length": 16,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 2,
+      "normal": 1,
+      "min": 0.5
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5c2b4498dc230d2e070aa9ce",
+      "reading": {
+        "weight": 1.5,
+        "status": "BORED"
+      }
+    },
+    "updated": "2019-01-01T10:44:40.490Z",
+    "created": "2018-02-23T13:19:24.525Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5ad66c2b05e4b73d8b3927f5",
+    "rfId": "64715",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a785225ac7fb251331f7916",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9bbf67282aee1c48a9dfa4",
+      "name": "M4 2mm washer",
+      "category": "5a759e2e7e2f0021085e1231",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "thickness": 2,
+        "uom": "mm"
+      },
+      "material": "ss"
+    },
+    "oldId": "64715",
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 1,
+      "normal": 0.5,
+      "min": 0.25
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5b34ecc543e0306c6fa0913d",
+      "reading": {
+        "weight": 0.44,
+        "status": "RESERVE"
+      }
+    },
+    "name": "cBin-SA-3",
+    "updated": "2018-06-28T14:12:21.539Z",
+    "created": "2018-04-17T21:50:35.265Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5a59c3bcb66f8e29c0c859e9",
+    "rfId": "64022",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-2",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "item": {
+      "_id": "5a59c286b66f8e29c0c859e7",
+      "name": "Slotted Head Machine Screws - DIN 84A",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 3,
+        "length": 12,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "oldId": "33501",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "currDevice": {
+      "_id": "5a84324a82fb8d0520f4505a",
+      "slno": "SA20W0000002",
+      "name": "cBin-SA-2",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+      "category": "cBin"
+    },
+    "uom": "weight",
+    "capacity": 17,
+    "thresold": {
+      "max": 10,
+      "normal": 6,
+      "min": 1.6
+    },
+    "status": "CONFIGURED",
+    "lastReading": {
+      "_id": "5b222d3959d3224d55dd89b9",
+      "reading": {
+        "weight": 0,
+        "status": "EMPTY"
+      }
+    },
+    "updated": "2018-06-14T08:54:17.506Z",
+    "created": "2018-01-13T08:30:52.462Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": false
+  },
+  {
+    "_id": "5a9014dc2862a03740a3bfc7",
+    "rfId": "55394",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a9010ef2862a03740a3bfc5",
+      "name": "FPO-25",
+      "dimension": {
+        "length": 200,
+        "width": 140,
+        "height": 120
+      },
+      "capacity": 15,
+      "brand": "Aristo"
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9012522862a03740a3bfc6",
+      "name": "M4 x 16mm Allen Screw",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "length": 16,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 2,
+      "normal": 1,
+      "min": 0.5
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5c2b4498dc230d2e070aa9ce",
+      "reading": {
+        "weight": 1.5,
+        "status": "BORED"
+      }
+    },
+    "updated": "2019-01-01T10:44:40.490Z",
+    "created": "2018-02-23T13:19:24.525Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5ad66c2b05e4b73d8b3927f5",
+    "rfId": "64715",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a785225ac7fb251331f7916",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9bbf67282aee1c48a9dfa4",
+      "name": "M4 2mm washer",
+      "category": "5a759e2e7e2f0021085e1231",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "thickness": 2,
+        "uom": "mm"
+      },
+      "material": "ss"
+    },
+    "oldId": "64715",
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 1,
+      "normal": 0.5,
+      "min": 0.25
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5b34ecc543e0306c6fa0913d",
+      "reading": {
+        "weight": 0.44,
+        "status": "RESERVE"
+      }
+    },
+    "name": "cBin-SA-3",
+    "updated": "2018-06-28T14:12:21.539Z",
+    "created": "2018-04-17T21:50:35.265Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5a59c3bcb66f8e29c0c859e9",
+    "rfId": "64022",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-2",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "item": {
+      "_id": "5a59c286b66f8e29c0c859e7",
+      "name": "Slotted Head Machine Screws - DIN 84A",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 3,
+        "length": 12,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "oldId": "33501",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "currDevice": {
+      "_id": "5a84324a82fb8d0520f4505a",
+      "slno": "SA20W0000002",
+      "name": "cBin-SA-2",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+      "category": "cBin"
+    },
+    "uom": "weight",
+    "capacity": 17,
+    "thresold": {
+      "max": 10,
+      "normal": 6,
+      "min": 1.6
+    },
+    "status": "CONFIGURED",
+    "lastReading": {
+      "_id": "5b222d3959d3224d55dd89b9",
+      "reading": {
+        "weight": 0,
+        "status": "EMPTY"
+      }
+    },
+    "updated": "2018-06-14T08:54:17.506Z",
+    "created": "2018-01-13T08:30:52.462Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": false
+  },
+  {
+    "_id": "5a9014dc2862a03740a3bfc7",
+    "rfId": "55394",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a9010ef2862a03740a3bfc5",
+      "name": "FPO-25",
+      "dimension": {
+        "length": 200,
+        "width": 140,
+        "height": 120
+      },
+      "capacity": 15,
+      "brand": "Aristo"
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9012522862a03740a3bfc6",
+      "name": "M4 x 16mm Allen Screw",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "length": 16,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 2,
+      "normal": 1,
+      "min": 0.5
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5c2b4498dc230d2e070aa9ce",
+      "reading": {
+        "weight": 1.5,
+        "status": "BORED"
+      }
+    },
+    "updated": "2019-01-01T10:44:40.490Z",
+    "created": "2018-02-23T13:19:24.525Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5ad66c2b05e4b73d8b3927f5",
+    "rfId": "64715",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a785225ac7fb251331f7916",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9bbf67282aee1c48a9dfa4",
+      "name": "M4 2mm washer",
+      "category": "5a759e2e7e2f0021085e1231",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "thickness": 2,
+        "uom": "mm"
+      },
+      "material": "ss"
+    },
+    "oldId": "64715",
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 1,
+      "normal": 0.5,
+      "min": 0.25
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5b34ecc543e0306c6fa0913d",
+      "reading": {
+        "weight": 0.44,
+        "status": "RESERVE"
+      }
+    },
+    "name": "cBin-SA-3",
+    "updated": "2018-06-28T14:12:21.539Z",
+    "created": "2018-04-17T21:50:35.265Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5a59c3bcb66f8e29c0c859e9",
+    "rfId": "64022",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-2",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "item": {
+      "_id": "5a59c286b66f8e29c0c859e7",
+      "name": "Slotted Head Machine Screws - DIN 84A",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 3,
+        "length": 12,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "oldId": "33501",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "currDevice": {
+      "_id": "5a84324a82fb8d0520f4505a",
+      "slno": "SA20W0000002",
+      "name": "cBin-SA-2",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF2",
+      "category": "cBin"
+    },
+    "uom": "weight",
+    "capacity": 17,
+    "thresold": {
+      "max": 10,
+      "normal": 6,
+      "min": 1.6
+    },
+    "status": "CONFIGURED",
+    "lastReading": {
+      "_id": "5b222d3959d3224d55dd89b9",
+      "reading": {
+        "weight": 0,
+        "status": "EMPTY"
+      }
+    },
+    "updated": "2018-06-14T08:54:17.506Z",
+    "created": "2018-01-13T08:30:52.462Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": false
+  },
+  {
+    "_id": "5a9014dc2862a03740a3bfc7",
+    "rfId": "55394",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a59c45062dcc71eccb5e211",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a9010ef2862a03740a3bfc5",
+      "name": "FPO-25",
+      "dimension": {
+        "length": 200,
+        "width": 140,
+        "height": 120
+      },
+      "capacity": 15,
+      "brand": "Aristo"
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9012522862a03740a3bfc6",
+      "name": "M4 x 16mm Allen Screw",
+      "category": "5a598281713baa1394be5810",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "length": 16,
+        "uom": "mm"
+      },
+      "material": "ms"
+    },
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 2,
+      "normal": 1,
+      "min": 0.5
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5c2b4498dc230d2e070aa9ce",
+      "reading": {
+        "weight": 1.5,
+        "status": "BORED"
+      }
+    },
+    "updated": "2019-01-01T10:44:40.490Z",
+    "created": "2018-02-23T13:19:24.525Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  },
+  {
+    "_id": "5ad66c2b05e4b73d8b3927f5",
+    "rfId": "64715",
+    "__v": 0,
+    "currDevice_name":  "cBin-SA-1",
+    "currDevice_locatin":"BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+    "capacity": 17,
+    "confBy": "5a785225ac7fb251331f7916",
+    "confDevice": "5a59bdb8f0229b3dfcd0e2c1",
+    "crateBin": {
+      "_id": "5a59b51f713baa1394be5819",
+      "name": "FPO-35",
+      "capacity": 17,
+      "brand": "Aristo",
+      "dimension": {
+        "length": 300,
+        "width": 210,
+        "height": 150
+      }
+    },
+    "currDevice": {
+      "_id": "5a59bdb8f0229b3dfcd0e2c1",
+      "slno": "SA0000001",
+      "name": "cBin-SA-1",
+      "location": "BLR-ELCITA-BLKA-FLR3-RM10-RK3-SF3",
+      "category": "cBin"
+    },
+    "item": {
+      "_id": "5a9bbf67282aee1c48a9dfa4",
+      "name": "M4 2mm washer",
+      "category": "5a759e2e7e2f0021085e1231",
+      "uom": "GM",
+      "dimension": {
+        "dia": 4,
+        "thickness": 2,
+        "uom": "mm"
+      },
+      "material": "ss"
+    },
+    "oldId": "64715",
+    "status": "CONFIGURED",
+    "thresold": {
+      "max": 1,
+      "normal": 0.5,
+      "min": 0.25
+    },
+    "uom": "weight",
+    "lastReading": {
+      "_id": "5b34ecc543e0306c6fa0913d",
+      "reading": {
+        "weight": 0.44,
+        "status": "RESERVE"
+      }
+    },
+    "name": "cBin-SA-3",
+    "updated": "2018-06-28T14:12:21.539Z",
+    "created": "2018-04-17T21:50:35.265Z",
+    "itemAlert": true,
+    "stockAlert": true,
+    "active": true
+  }
+]

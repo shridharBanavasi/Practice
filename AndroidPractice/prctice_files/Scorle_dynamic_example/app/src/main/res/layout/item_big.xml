@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+
+        <TextView
+            android:id="@+id/title_big"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:text="Bin #1"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="#020202"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/image_big"
+            android:layout_width="78dp"
+            android:layout_height="60dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/cbin" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="162dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Slottedscrews MAT21A"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#1A1919"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tv_info1"
+            android:layout_width="57dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:text="20%"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#eb3434"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

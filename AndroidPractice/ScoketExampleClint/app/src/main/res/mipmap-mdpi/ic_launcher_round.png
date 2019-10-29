@@ -1,0 +1,80 @@
+package com.matriot.cbin.activities;
+
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
+import com.matriot.cbin.R;
+import com.matriot.cbin.api.RetrofitClient;
+import com.matriot.cbin.internet.NetworkStateReceiver;
+
+/*import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_BNAME;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_CREATOR;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_DIM;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_DIMENSION;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_IDENTIFIER;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_INAME;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_LIKES;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_MATERIAL;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_RFID;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_STATUS;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_TITLE;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_UNIT;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_URL;
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_WEIGHT;*/
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+
+import okhttp3.ResponseBody;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
+import static com.matriot.cbin.activities.MonitorFragmenet.EXTRA_ID;
+
+public class Details extends AppCompatActivity implements NetworkStateReceiver.NetworkStateReceiverListener {
+    private NetworkStateReceiver networkStateReceiver;
+
+    String id;
+
+    TextView mDetails;
+    ConstraintLayout mBinDetails;
+    TextView mItem;
+    ConstraintLayout mItemDetails;
+    TextView mBinName;
+    TextView mLocation;
+    TextView mDimension;
+    TextView mBname;
+    TextView mRfid;
+    TextView mpers;
+    TextView mIname;
+    TextView mdim;
+    TextView mMaterial;
+    TextView mWeight;
+    TextView mStatus;
+    TextView left;
+    TextView munits;
+    TextView midentifier;
+    ImageView mBinIcon;
+    ImageView mItemIcon;
+    ImageView icon;
+    boolean i=true;
+    boolean j=true;
+
+    UserSessionManager session;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setConten

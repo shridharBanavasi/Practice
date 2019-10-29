@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">practice</string>
+    <string name="action_settings">Settings</string>
+    <string name="button">Button</string>
+    <string name="fragment_1">Button</string>
+    <string name="button3">Button</string>
+</resources>
